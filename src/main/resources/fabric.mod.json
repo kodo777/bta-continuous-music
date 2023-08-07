@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "btacontinuousmusic",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Continuous Music For BTA!",
+  "description": "Removes the delay between music tracks playing.",
   "authors": [
-    "Turnip Labs"
+    "Kodo"
   ],
   "contact": {
     "homepage": "",
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+      "kodo777.btacontinuousmusic.BTAContinuousMusic"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+    "btacontinuousmusic.mixins.json"
   ],
 
   "depends": {
